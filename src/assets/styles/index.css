@@ -1,0 +1,68 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos Index.js
+**********************************************/
+
+:root {
+  --globalColor: #404487;
+  --messageColor: rgb(11, 11, 241);
+  --boxshadow0: 0px 0px 0px;
+  --top10Color: #404487;
+  --gameOverColor: #404487;
+  align-content: center;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      rgb(225, 229, 236, 0.932),
+      rgba(225, 229, 236, 0.932)
+    )
+    fixed;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+select,
+label,
+dd,
+button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select,
+button {
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width : 600px)   {
+
+  body{
+    justify-content: center;
+    flex-wrap: nowrap;
+    zoom: 35%;
+  }
+
+
+}
+
+@media only screen and (max-width : 1200px) and (min-width : 600px)   {
+
+  body{
+    justify-content: center;
+    flex-wrap: nowrap;
+    zoom: 50%;
+  }
+
+
+}

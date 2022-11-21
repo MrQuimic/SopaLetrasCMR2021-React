@@ -1,0 +1,105 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos App.js 
+**********************************************/
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  padding: 6px 10px 19px 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+  background: linear-gradient(
+      rgba(107, 104, 104, 0.336),
+      rgba(68, 68, 75, 0.932)
+    )
+    fixed;
+  color: grey;
+  border: 1px var(--globalColor);
+  /* box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);*/
+  align-items: center;
+  width: 1100px;
+  min-width: 100%;
+  border-radius: 500px;
+  min-height: 115px;
+  max-height: 115px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: top;
+
+  width: 100%;
+}
+#container > header {
+  font-size: 1em;
+  text-align: center;
+  padding: 0px 0px 0px 50px;
+  align-self: flex-start;
+  letter-spacing: 0.05px;
+  line-height: 1.2em;
+  color: var(--globalColor);
+  width: 50%;
+}
+
+#painelControl {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 4px;
+}
+#painelControl > header {
+  font-size: 1em;
+  text-align: left;
+  padding-top: 8px;
+  align-self: flex-start;
+  letter-spacing: 0.05px;
+  line-height: 1.2em;
+  color: var(--globalColor);
+  width: 60%;
+}
+
+footer {
+  font-size: xx-small;
+  text-align: left;
+  border-bottom-left-radius: 6px;
+  padding-left: 4%;
+  z-index: -1;
+  border-bottom-right-radius: 6px;
+  position: relative;
+  width: 100%;
+}
+.title,
+.subtitle {
+  font-family: inherit;
+  font-size: 0.2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 0.5em;
+  color: var(--globalColor);
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.title {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  white-space: nowrap;
+}
