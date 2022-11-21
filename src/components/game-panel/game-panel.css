@@ -1,0 +1,125 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos para game-panel.componente.jsx 
+**********************************************/
+
+#game-panel {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+#game {
+  z-index: -1;
+  position: relative;
+  width: 80%;
+  min-width: 200px;
+  margin: auto auto;
+
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.containerWords {
+  background-color: rgba(96, 112, 165, 0.37);
+  width: 20%;
+
+  border: 3px solid rgba(13, 58, 134, 0.932);
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+
+  padding-left: 4%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-self: flex-start;
+}
+.containerWordsgameStarted {
+  background-color: rgba(108, 119, 156, 0.37);
+  width: 100%;
+
+  border: 3px solid rgba(87, 102, 129, 0.932);
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+
+  padding-left: 4%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-self: flex-start;
+}
+
+.containerWordsdisabled {
+  width: 100%;
+
+  border: 3px solid rgb(228, 225, 225);
+  background-color: rgba(125, 145, 211, 0.37);
+
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+
+  padding-left: 4%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-self: flex-start;
+}
+
+.containerWords:hover {
+  box-shadow: 0px 0px 10px rgba(13, 58, 134, 0.932);
+}
+
+#lettersClass {
+  width: 50%;
+
+  position: absolute;
+  margin-left: 0em;
+  top: 9em;
+  width: 70em;
+
+}
+
+#game.avancado {
+  width: 80%;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#game.intermedio {
+  width: 80%;
+  grid-template-columns: auto auto auto auto;
+}
+
+#game-panel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#game2 {
+  width: 80%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+  perspective: 1000px;
+  user-select: none;
+}
+
+#game2.avancado {
+  width: 80%;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#game2.intermedio {
+  width: 80%;
+  grid-template-columns: auto auto auto auto;
+}

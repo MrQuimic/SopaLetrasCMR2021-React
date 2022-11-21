@@ -1,0 +1,203 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos para card.component.jsx 
+Carlos 
+**********************************************/
+/*
+
+*/
+.alphaSpan {
+  cursor: pointer;
+
+  position: relative;
+  margin: 15%;
+  border-radius: 15%;
+  /*margin: auto;*/
+width: 80%;
+  justify-content: center;
+  text-align: center;
+  transform-style: preserve-3d;
+  transform: scale(1);
+  transition: transform 0.4s;
+  border: 2px solid  transparent;
+
+  background-color: rgba(225, 229, 236, 0.932);
+}
+
+
+
+.alphaSpan.inative {
+  box-shadow: var(--boxshadow0);
+  pointer-events: none;
+}
+
+/*
+border: 2px solid var(--globalColor);
+*/
+.alphaSpan:hover {
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(127, 189, 119);
+  border: 2px solid  rgb(139, 142, 167);
+  margin: 15%;
+  border-radius: 15%;
+  width: 80%;
+}
+
+
+.grayscale {
+  filter: grayscale(1) opacity(0.5);
+}
+
+
+
+.alphaTd:hover {
+
+  background-color: rgb(221, 223, 233);
+  
+}
+
+
+
+.no-events {
+  pointer-events: none;
+}
+
+
+.alpha {
+  width: 90%;
+    padding-left: 20%;
+  margin: auto;
+align-self:auto;
+    position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+/*
+background-color: orange;
+*/
+
+.selected {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(218, 214, 214, 0.37);
+  position: relative;
+  padding: 10%;
+  border-radius: 30%;
+
+  margin: auto;
+  padding-left: 7%;
+  padding-right: 7%;
+  justify-content: center;
+  text-align: center;
+  transform-style: preserve-3d;
+  transform: scale(1);
+  transition: transform 0.4s;
+  border: 2px solid  rgba(225, 229, 236, 0.932);
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(127, 189, 119);
+}
+
+
+#alpha .found {
+  background-color: blue;
+  color: white;
+}
+
+#alpha .solved {
+  background-color: purple;
+  color: white;
+}
+#alpha .complete {
+  background-color: green;
+}
+
+.WordsFound1 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(194, 194, 63);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound2 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(194, 142, 63);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+
+.WordsFound3 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(168, 63, 194);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound4 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(185, 132, 144);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound5 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(63, 194, 194);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound6 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(110, 134, 185);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound7 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(189, 169, 103);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound8 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(185, 194, 175);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound9 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(115, 117, 255);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound10 {
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(185, 194, 63);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}
+.WordsFound{
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: var(--boxshadow0);
+  background-color: rgb(63, 194, 161);
+  border: 2px solid  rgb(139, 142, 167);
+  border-radius: 50px;
+}

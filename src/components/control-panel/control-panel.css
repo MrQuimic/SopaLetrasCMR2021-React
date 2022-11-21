@@ -1,0 +1,219 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos para control-panel.component.jsx 
+**********************************************/
+#panel-control {
+  box-shadow: 0px 0px px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  font-size: smaller;
+  color: grey;
+  width: 35%;
+
+  padding: 0px;
+  align-self: flex-end;
+
+  margin: 0px 0px;
+}
+
+#panel-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+#panel-control .form,
+#panel-control {
+  width: 100%;
+  min-height: 80px;
+  justify-self: left;
+}
+
+#panel-control .form-metadata {
+  display: grid;
+  align-self: flex-start;
+  grid-template-columns: auto auto;
+  width: 100%;
+  min-height: 80px;
+}
+#panel-control {
+  margin-top: 4px;
+  display: flex;
+  align-self: flex-start;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  padding: 2px 6px;
+  width: 100%;
+}
+
+#panel-control .list-item.gameStarted {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+#panel-control .list-item:not(.gameStarted) {
+  display: none;
+}
+
+#message.hide {
+  display: none;
+}
+
+#panel-control .left {
+  justify-self: left;
+}
+
+#panel-control .right {
+  justify-self: end;
+}
+
+#panel-control .form-group {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  justify-self: left;
+}
+
+#panel-control .form-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  list-style-type: none;
+}
+
+#panel-control #message {
+  color: var(--messageColor);
+  font-weight: bolder;
+}
+
+#game {
+  width: 80%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+  perspective: 1000px;
+
+  user-select: none;
+}
+
+#game.avancado {
+  width: 80%;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#game.intermedio {
+  width: 80%;
+  grid-template-columns: auto auto auto auto;
+}
+#btTop {
+  margin-top: 2px;
+}
+
+#btPlay {
+  border: 1px solid #5e5858;
+  background-color: #5eac52;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+  margin-top: 10px;
+  margin-left: 19%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  justify-self: end;
+}
+#btPlay:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #751d1d;
+  background: var(--globalColor);
+}
+
+#btPlay:disabled,
+#btPlay:disabled:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: inherit;
+}
+
+#gameTime,
+#points {
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+  margin-left: 5px;
+  width: 45px;
+  text-align: right;
+  display: inline-block;
+}
+#points {
+  background-color: #cac2c2;
+  width: 65px;
+  text-align: left;
+  background-color: transparent;
+  color: var(--globalColor);
+}
+select {
+  background: rgba(138, 138, 160, 0.1);
+  border: 2px solid grey;
+}
+select::selection {
+  background: rgba(138, 138, 160, 0.1);
+  border: 4px solid grey;
+}
+select:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid grey;
+}
+button {
+  background: rgba(209, 196, 196, 0.1);
+  border: 2px solid grey;
+}
+button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid grey;
+}
+
+#panel-control #top10 {
+  grid-column: 2 / -1;
+}
+
+.hide {
+  display: none;
+}
+
+#solutionBtn {
+  background-color: rgb(107, 140, 201);
+  color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  border: 1px solid #751d1d;
+  cursor: pointer;
+  padding: 2px;
+}
+
+#solutionBtn:hover {
+  background: rgba(0, 0, 0, 0.1);
+
+  background: var(--globalColor);
+}
+
+#Btnbiderection {
+  background-color: rgb(194, 194, 194);
+  color: rgb(122, 117, 117);
+
+  border: 1px solid #a8a49b;
+  border-radius: 15%;
+  cursor: hand;
+}
+
+#Btnbiderection:hover {
+  background-color: rgb(63, 63, 66);
+  color: rgb(187, 181, 181);
+  background: var(--globalColor);
+}
