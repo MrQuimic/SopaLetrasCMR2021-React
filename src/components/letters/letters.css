@@ -11,7 +11,7 @@ Carlos
   cursor: pointer;
 
   position: relative;
-  margin: 15%;
+  //margin: 15%;
   border-radius: 15%;
   /*margin: auto;*/
 width: 80%;
@@ -39,7 +39,7 @@ border: 2px solid var(--globalColor);
   box-shadow: var(--boxshadow0);
   background-color: rgb(127, 189, 119);
   border: 2px solid  rgb(139, 142, 167);
-  margin: 15%;
+  //gin: 15%;
   border-radius: 15%;
   width: 80%;
 }
