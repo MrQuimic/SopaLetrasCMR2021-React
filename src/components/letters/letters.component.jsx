@@ -47,15 +47,6 @@ export default function Letters(props) {
               handleWordsFound,
               onBiderection
             )}
-            onTouchStartCapture={addSelected(
-                letter.id,
-                letter.name,
-                letter.wordName,
-                soupWordIds,
-                wordList,
-                handleWordsFound,
-                onBiderection
-            )}
             onDragOver={addSelected(
               letter.id,
               letter.name,
