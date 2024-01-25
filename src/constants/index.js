@@ -18,7 +18,7 @@ export const wordListBase = [
   { id: 4, name: "EMBER" },
   { id: 5, name: "BACKBONE" },
   { id: 6, name: "TYPESCRIPT" },
-  { id: 7, name: "ISEC" },
+  { id: 7, name: "REACT" },
   { id: 8, name: "LINGUAGENS" },
   { id: 9, name: "ASSEMBLY" },
   { id: 10, name: "PYTHON" },
